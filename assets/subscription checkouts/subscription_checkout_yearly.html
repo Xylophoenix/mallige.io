@@ -80,14 +80,6 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="checkout-form-input">
-                                            <label for="company-name">Company Name</label>
-                                            <input type="text" id="company-name" placeholder="Company Name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="checkout-form-input">
                                             <label for="address">Address</label>
                                             <input type="text" id="address" placeholder="Address">
                                         </div>
@@ -206,7 +198,7 @@
                                                 <h1>Cash on Delivery</h1>
                                             </div>
                                             <div class="checkout-order-payment-method-body-item-body">
-                                                <p>Pay with cash upon delivery.</p>
+                                                <p>Pay with cash on delivery.</p>
                                             </div>
                                         </div>
                                         <div class="checkout-order-payment-method-body-item">
@@ -217,18 +209,10 @@
                                                 <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
                                             </div>
                                         </div>
-                                        <div class="checkout-order-payment-method-body-item">
-                                            <div class="checkout-order-payment-method-body-item-title">
-                                                <h1>Credit Card</h1>
-                                            </div>
-                                            <div class="checkout-order-payment-method-body-item-body">
-                                                <p>Pay with your credit card via Stripe.</p>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="checkout-order-payment-button">
-                                    <button type="submit" class="btn">Place Order</button>
+                                    <button type="submit" class="btn" onclick="orderPlaced()">Place Order</button>
                                 </div>
                             </div>
                         </div>
@@ -305,4 +289,10 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js/@1.12.9/dist/umd/popper.min.js"></script>
     </body>
+    <script>
+        function orderPlaced() {
+            alert("Order Placed Successfully");
+            window.location.href = "../subscription.html";
+        }
+    </script>
 </html>
