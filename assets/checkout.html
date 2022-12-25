@@ -29,8 +29,8 @@
                             <nav class="header-menu">
                                 <ul>
                                     <li><a href="index-1.html">Home</a></li>
-                                    <li><a href="index-1.html">About</a></li>
-                                    <li><a href="#footer_link">Contact</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="index-1.html#footer_link">Contact</a></li>
                                     <li><a href="index-1.html#products">Products</a></li>
                                     <li><a href="shop.html">Shop</a></li>
                                     <li><a href="subscription.html">Subscription</a></li>
@@ -171,57 +171,21 @@
                                     <tbody>
                                         <tr>
                                             <td>Product 1 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 2 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 3 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 4 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 5 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 6 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 7 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 8 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 9 <span>× 1</span></td>
-                                            <td>$100.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Product 10 <span>× 1</span></td>
-                                            <td>$100.00</td>
+                                            <td>₹1000.00</td>
                                         </tr>
                                     </tbody>
                                     <tfoot>
                                         <tr>
                                             <th>Subtotal</th>
-                                            <td>$1000.00</td>
+                                            <td>₹1000.00</td>
                                         </tr>
                                         <tr>
                                             <th>Shipping</th>
-                                            <td>$0.00</td>
+                                            <td>₹0.00</td>
                                         </tr>
                                         <tr>
                                             <th>Total</th>
-                                            <td>$1000.00</td>
+                                            <td>₹1000.00</td>
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -259,7 +223,7 @@
                                     </div>
                                 </div>
                                 <div class="checkout-order-payment-button">
-                                    <button type="submit" class="btn">Place Order</button>
+                                    <button type="submit" class="btn" onclick="orderPlaced()">Place an Order</button>
                                 </div>
                             </div>
                         </div>
@@ -294,11 +258,12 @@
                                         <div class="widget-menu">
                                             <h3>Menu</h3>
                                             <ul>
-                                                <li><a href="..">Home</a></li>
-                                                <li><a href="..">About</a></li>
-                                                <li><a href="..">Contact</a></li>
-                                                <li><a href="..">Products</a></li>
+                                                <li><a href="index-1.html">Home</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="index-1.html#footer_link">Contact</a></li>
+                                                <li><a href="index-1.html#products">Products</a></li>
                                                 <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="subscription.html">Subscription</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -337,4 +302,10 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js/@1.12.9/dist/umd/popper.min.js"></script>
     </body>
+    <script>
+        function orderPlaced() {
+            alert("Order Placed Successfully");
+            window.location.href = "index-1.html";
+        }
+    </script>
 </html>

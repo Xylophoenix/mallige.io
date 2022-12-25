@@ -1324,6 +1324,56 @@ a, a:hover, a:focus{
     color: #022c3e;
 }
 
+.about-section .container .video-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-section .container .video-container .about-content{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #022c3e;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+}
+
+.about-section .container .video-container .what-we-do{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #022c3e;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding: auto;
+}
+
+.about-section .container .video-container .what-we-do h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #022c3e;
+}
+
+.about-section .container .video-container .what-we-do p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #022c3e;
+    margin-top: auto;
+}
+
+.about-section .container .video-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .footer{
     background-color: #022c3e;
     padding: 90px 0 70px;
