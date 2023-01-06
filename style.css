@@ -1324,59 +1324,55 @@ a, a:hover, a:focus{
     color: #022c3e;
 }
 
-.about-section .container .video-container{
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
+.about-mallige .about-mallige-video video{
+    width: 60%;
+    height: 60%;
 }
 
-.about-section .container .video-container .col-1 video{
-    margin-left: 300px;
-}
-
-.about-section .container .video-container .col-2 video{
-    margin-left: 400px;
-}
-
-.about-section .container .video-container .about-content{
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    color: #022c3e;
-    font-size: 20px;
-    font-weight: 500;
-    width: 100%;
-    padding: 10px;
-}
-
-.about-section .container .video-container .what-we-do{
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    color: #022c3e;
-    font-size: 20px;
-    font-weight: 500;
-    width: 100%;
-    padding: auto;
-}
-
-.about-section .container .video-container .what-we-do h3{
-    font-size: 30px;
+.about-mallige .row .col-md-6 h2{
+    font-size: 40px;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #022c3e;
+    margin-bottom: 30px;
+    color: #ff5903;
 }
 
-.about-section .container .video-container .what-we-do p{
+.about-mallige .row .col-md-6 p{
     font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #000;
     font-weight: 500;
-    margin-bottom: 20px;
-    color: #022c3e;
-    margin-top: auto;
+    font-size: 20px;
 }
 
-.about-section .container .video-container video{
-    object-fit: cover;
+.about-us .row .col-md-6 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ff5903;
+}
+
+.about-us .row .col-md-6 p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about-us .about-us-img img{
+    width: 70%;
+    height: 1000%;
+    padding-top:  100px;
+}
+
+.about-farmer .row .col-md-12 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ff5903;
+    text-align: center;
 }
 
 .footer{
@@ -1630,6 +1626,34 @@ a, a:hover, a:focus{
         font-size: 14px;
     }
     
+    .about-section .heading-container h2{
+        font-size: 50px;
+    }
+
+    .about-mallige .container .row .col-md-6 .about-mallige-video video{
+        width: 100%;
+    }
+
+    .about-mallige .container .row .col-md-6 h2{
+        font-size: 30px;
+    }
+
+    .about-mallige .container .row .col-md-6 p{
+        font-size: 16px;
+    }
+
+    .about-us .container .row .col-md-6 .about-us-img img{
+        width: 100%;
+    }
+
+    .about-us .container .row .col-md-6 h2{
+        font-size: 30px;
+    }
+
+    .about-farmer .container .row .col-md-6 .about-farmer-video video{
+        width: 100%;
+    }
+
     .footer .information p{
         font-size: 14px;
     }
